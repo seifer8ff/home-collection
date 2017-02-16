@@ -1,3 +1,9 @@
+body	{
+	background: #f9eee0;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
 .pic-container	{
 	position: relative;
 }
@@ -29,6 +35,23 @@
 	transform: perspective(1px) translateY(-50%);
 	text-align: center;
 	text-transform: uppercase;
+	color: white;
+}
+
+.verticalLine-center	{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	bottom: 92%;
+	border-left: thick dotted #3d69ce;
+}
+
+.verticalLine-right	{
+	position: absolute;
+	left: 75%;
+	top: 0;
+	bottom: 92%;
+	border-left: thick dotted #3d69ce;
 }
 
 
