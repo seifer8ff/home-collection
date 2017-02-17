@@ -95,6 +95,10 @@ body	{
 	animation: fadeInElement 4s;
 }
 
+.pic-container a:hover .pic-title-bg-btm, .pic-container a:hover .pic-title-bg-top 	{
+	background-color: rgba(30, 30, 80, 0.6);
+}
+
 
 
 
@@ -137,8 +141,10 @@ body	{
  /*BOOTSTRAP OVERRIDES */
  .img-responsive	{
  	margin-top: 60px;
- 	/*margin-bottom: 20px;*/
  	border-radius: 8px;
+ 	
+ 	/*Remove this with properly sized images??*/
+ 	width: 100%;
  }
 
  .navbar-top	{
