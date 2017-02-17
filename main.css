@@ -1,6 +1,5 @@
 body	{
-	background: #f9eee0;
-	padding-top: 70px;
+	background: #e8c3ae;
 	padding-bottom: 60px;
 }
 
@@ -41,26 +40,112 @@ body	{
 .verticalLine-center	{
 	position: absolute;
 	left: 50%;
-	top: 0;
-	bottom: 92%;
-	border-left: thick dotted #3d69ce;
+	top: -10%;
+	bottom: 75%;
+	border-left: 5px dotted #3d69ce;
+	z-index: -3;
 }
 
 .verticalLine-right	{
 	position: absolute;
 	left: 75%;
-	top: 0;
-	bottom: 92%;
-	border-left: thick dotted #3d69ce;
+	top: -10%;
+	bottom: 75%;
+	border-left: 5px dotted #3d69ce;
+	z-index: -3;
+	
+}
+
+.hiddenOnLoad	{
+	opacity: 0;
+}
+
+/*.fadeIn	{
+	opacity: 1;
+	transition: opacity 2s;
+}*/
+
+.img-responsive.first	{
+	margin-top: 100px;
+}
+
+.img-responsive.last	{
+	margin-bottom: 100px;
+}
+
+.container-page	{
+	background: #f9eee0;
+	position: relative;
+	z-index: 5;
+}
+
+.fadeInShort {
+	-webkit-animation: fadeInElement 2.5s; /* Safari and Chrome */
+	-moz-animation: fadeInElement 2.5s; /* Firefox */
+	-ms-animation: fadeInElement 2.5s; /* Internet Explorer */
+	-o-animation: fadeInElement 2.5s; /* Opera */
+	animation: fadeInElement 2.5s;
+}
+
+.fadeInLong {
+	-webkit-animation: fadeInElement 4s; /* Safari and Chrome */
+	-moz-animation: fadeInElement 4s; /* Firefox */
+	-ms-animation: fadeInElement 4s; /* Internet Explorer */
+	-o-animation: fadeInElement 4s; /* Opera */
+	animation: fadeInElement 4s;
 }
 
 
+
+
+
+
+
+    
+@keyframes fadeInElement {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadeInElement {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadeInElement {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+/*@-ms-keyframes fadeInElement {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​*/
+
+/* Opera */
+/*@-o-keyframes fadeInElement {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​*/
 
 
 
 
  /*BOOTSTRAP OVERRIDES */
  .img-responsive	{
- 	margin-top: 25px;
+ 	margin-top: 60px;
+ 	/*margin-bottom: 20px;*/
  	border-radius: 8px;
+ }
+
+ .navbar-top	{
+ 	margin-top: 30px;
+ 	margin-bottom: 40px;
+ }
+
+ .navbar-default	{
+ 	background: #f9eee0;
  }
