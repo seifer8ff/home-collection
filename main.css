@@ -142,7 +142,7 @@ body	{
  .img-responsive	{
  	margin-top: 60px;
  	border-radius: 8px;
- 	
+
  	/*Remove this with properly sized images??*/
  	width: 100%;
  }
@@ -155,3 +155,36 @@ body	{
  .navbar-default	{
  	background: #f9eee0;
  }
+
+
+
+
+
+
+ @media (max-width: 978px) {
+
+ 	body	{
+ 		padding-bottom: 20px;
+ 	}
+
+	.navbar-top	{
+		margin-top: 0px;
+		margin-bottom: 25px;
+		}
+
+	.img-responsive	{
+		margin-top: 25px;
+		border-radius: 8px;
+
+		/*Remove this with properly sized images??*/
+		width: 100%;
+		}
+
+	.img-responsive.first	{
+		margin-top: 20px;
+		}
+
+	.img-responsive.last	{
+		margin-bottom: 20px;
+		}
+}
