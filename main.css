@@ -96,11 +96,11 @@ body	{
 }
 
 .fadeInAnim-long {
-	-webkit-animation: fadeInElement 2s; /* Safari and Chrome */
-	-moz-animation: fadeInElement 2s; /* Firefox */
-	-ms-animation: fadeInElement 2s; /* Internet Explorer */
-	-o-animation: fadeInElement 2s; /* Opera */
-	animation: fadeInElement 2s;
+	-webkit-animation: fadeInElement 3s; /* Safari and Chrome */
+	-moz-animation: fadeInElement 3s; /* Firefox */
+	-ms-animation: fadeInElement 3s; /* Internet Explorer */
+	-o-animation: fadeInElement 3s; /* Opera */
+	animation: fadeInElement 3s;
 }
 
 .footer	{

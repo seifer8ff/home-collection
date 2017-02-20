@@ -11,8 +11,6 @@ function init()	{
 }
 
 
-
-
 // unhides elements one by one
 function unhideSequence()	{
 	// controls how quickly each element is unhidden
@@ -49,15 +47,3 @@ function unhideAll()	{
 		hiddenElements[i].classList.toggle("fadeInAnim-long");
 	}
 }
-
-// function unhideEach()	{
-	
-// }
-
-// function addLinkHovers()	{
-// 	var links = document.querySelectorAll(".pic-container a");
-// 	console.log(links);
-// 	for (var i = 0; i < links.length; i++)	{
-// 		links[i].addEventListener("hover", )
-// 	}
-// }
