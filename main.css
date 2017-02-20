@@ -244,5 +244,19 @@ p 	{
 	h3	{
 		font-size: 1.2em;
 	}
+}
 
+@media (min-width: 0px) and (max-width: 900px) {
+   .navbar-collapse.collapse {
+       display: none !important;
+   }
+   .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
 }
